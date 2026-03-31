@@ -1,4 +1,4 @@
-package collestions;
+package collections;
 
 import java.util.HashSet;
 public class Hashset_Learn {

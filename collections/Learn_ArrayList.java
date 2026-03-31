@@ -1,4 +1,4 @@
-package collestions;
+package collections;
 import java.util.ArrayList;
 public class Learn_ArrayList {
 
