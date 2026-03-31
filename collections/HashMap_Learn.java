@@ -1,5 +1,6 @@
 package collections;
 import java.util.HashMap;
+import java.util.Iterator;
 public class HashMap_Learn {
 
 	public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class HashMap_Learn {
 		hs.put("Norway", "Oslo");
 		
 		System.out.println(hs);
+		
 
 	}
 
