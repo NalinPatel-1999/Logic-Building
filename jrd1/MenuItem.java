@@ -1,6 +1,6 @@
 package jrd1;
 
-public class MenuItem {
+public abstract class  MenuItem {
 	
 	private String name;
 	private static final String [] VALID_NAMES = {"latte", "cappuccino", "espresso", "americano", "mocha"};
@@ -59,5 +59,7 @@ public class MenuItem {
 		double taxRate = 0.8;
 		return price + (price*taxRate);
 	}
+	
+	public abstract double calculateTotalPrice();	
 
 }
